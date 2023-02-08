@@ -49,5 +49,30 @@ export const RightWrapper = styled.div`
       top:0;
       right:8px;
     }
+      .panel{
+          position: absolute;
+          right: 0;
+          top:60px;
+          width:240px;
+          height: auto;
+          background-color: #fff;
+          box-shadow: 0 0 6px rgba(0,0,0,0.18);
+          border-radius: 10px;
+          color: #666;
+          .top,.bottom{
+              padding: 10px 0;
+              .item{
+                  height: 40px;
+                  line-height: 40px;
+                  padding: 0 16px;
+                  &:hover{
+                      background-color: #f5f5f5;
+                  }
+              }
+          }
+          .top{
+              border-bottom: 1px solid #ddd;
+          }
+      }
   }
 `

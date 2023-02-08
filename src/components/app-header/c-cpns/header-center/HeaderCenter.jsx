@@ -5,11 +5,13 @@ import IconSearchBar from "@/assets/svg/icon-search-bar";
 const HeaderCenter = () => {
   return (
       <CenterWrapper>
-        <div className="text">
-          搜素房源和体验
-        </div>
-        <div className="icon">
-          <IconSearchBar/>
+        <div className="search-bar">
+          <div className="text">
+            搜素房源和体验
+          </div>
+          <div className="icon">
+            <IconSearchBar/>
+          </div>
         </div>
       </CenterWrapper>
   );
