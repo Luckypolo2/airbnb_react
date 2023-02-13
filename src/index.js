@@ -9,6 +9,7 @@ import 'normalize.css' // css重置
 import './assets/css/index.less'
 import store from "./store/store"; // 全局样式
 import theme from "@/assets/theme/theme";
+import '@/assets/font/iconfont.css' // 字体图标
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
